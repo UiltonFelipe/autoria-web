@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 30 auto;
+    text-align: center;
+}
+
+label { display: block; margin-top: 12px; }
+input { padding: 8px; font-size: 16px; width: 150px; }
+button { margin-top: 16px; padding: 10px 20px; font-size: 16px; cursor: pointer; }
+
+#resultado {
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: 12px;
+    transition: background-color 0.4s;
+}
+
+.vazio { background-color: #f0f0f0; color: #333; }
+.abaixo { background-color: #74a9d8; color: #fff; }
+.normal { background-color: #7bc67e; color: #fff; }
+.sobrepeso { background-color: #ffb347; color: #5a3300; }
+.obesidade { background-color: #e57377; color: #fff; }
